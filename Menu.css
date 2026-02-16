@@ -1,0 +1,102 @@
+/* ===== PAGE STYLE ===== */
+body{
+    margin: 0;
+    font-family: "Sekuya", system-ui;
+    background-color: aqua;
+}
+
+/* ===== FLEX CONTAINER ===== */
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+/* ===== SECTION TITLES ===== */
+#parent h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: red;
+    text-shadow: 3px 3px 6px black;
+    margin: 40px 0 10px;
+}
+
+/* ===== CARD STYLE ===== */
+.cls{
+    height: 240px;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+/* hover effect */
+.cls:hover{
+    transform: scale(1.05);
+}
+
+/* remove underline */
+a{
+    text-decoration: none;
+}
+
+/* ===== IMAGE BACKGROUNDS ===== */
+/* veg burgers */
+#demo1{ background-image: url("./image.png"); }
+#demo2{ background-image: url("./image copy.png"); }
+#demo3{ background-image: url("./image copy 2.png"); }
+#demo4{ background-image: url("./image copy 3.png"); }
+#demo5{ background-image: url("./image copy 4.png"); }
+#demo6{ background-image: url("./image copy 5.png"); }
+#demo7{ background-image: url("./image copy 7.png"); }
+
+/* chicken burgers */
+#demo8{ background-image: url("./image copy 8.png"); }
+#demo9{ background-image: url("./image copy 9.png"); }
+#demo10{ background-image: url("./image copy 10.png"); }
+#demo11{ background-image: url("./image copy 11.png"); }
+#demo12{ background-image: url("./image copy 12.png"); }
+#demo13{ background-image: url("./image copy 13.png"); }
+#demo14{ background-image: url("./image copy 14.png"); }
+
+/* shawarma */
+#demo15{ background-image: url("./image copy 15.png"); }
+#demo16{ background-image: url("./image copy 16.png"); }
+#demo18{ background-image: url("./image copy 18.png"); }
+#demo19{ background-image: url("./image copy 19.png"); }
+#demo20{ background-image: url("./image copy 20.png"); }
+#demo21{ background-image: url("./image copy 21.png"); }
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 600px){
+
+    #parent h1{
+        font-size: 1.8rem;
+    }
+
+    .cls{
+        height: 180px;
+        font-size: 1rem;
+    }
+}
+img{
+    text-decoration: none;
+}

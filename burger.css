@@ -1,0 +1,81 @@
+/* Background */
+body{
+    margin: 0;
+    font-family: "Sekuya", system-ui;
+    background: url("./street-fast-food-concept-dark-bakground-burgers-meat-vegetables-sesame-seeds-shawarma-chicken-street-fast-158348718.webp") center/cover no-repeat;
+}
+
+/* Dark overlay for readability */
+.overlay{
+    min-height: 100vh;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Heading */
+h1{
+    color: red;
+    font-size: 3rem;
+    text-shadow: 3px 3px 6px black;
+    max-width: 900px;
+}
+
+/* Button */
+button{
+    margin-top: 25px;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    background-color: red;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: darkred;
+    color: yellow;
+}
+
+/* Address */
+h2{
+    margin-top: 40px;
+    font-size: 1.3rem;
+    color: lightgray;
+    line-height: 1.6;
+}
+
+/* Timings */
+h3{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: skyblue;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 600px){
+
+    h1{
+        font-size: 2rem;
+    }
+
+    button{
+        font-size: 1.2rem;
+        padding: 12px 25px;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+}
